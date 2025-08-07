@@ -1,0 +1,1 @@
+Pode ser que em alguns locais tem "tipagem" pq estou usando o (Pylance).
