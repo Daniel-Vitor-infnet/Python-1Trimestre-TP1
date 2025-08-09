@@ -1,4 +1,4 @@
-#Fiquei bem confuso com esse "placeholders" de idade em um problema de km, porém vou tentar fazer meu melhor.
+#O problema no geral é tranquilo, porém o enunciado deixo bem confuso
 
 km_por_dia: int = 23 # Pensei em usar float, porém não vejo necessidade.
 gasto_diario: int = 300 + 2 # Sou de 2002 e o enunciado pede 2 digitos, porém n vejo sentido em colocar 02 como é uma soma 02 é igual a 2.
