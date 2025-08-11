@@ -1,8 +1,9 @@
 #O problema no geral é tranquilo, porém o enunciado deixo bem confuso
 
-km_por_dia: int = 23 # Pensei em usar float, porém não vejo necessidade.
-gasto_diario: int = 300 + 2 # Sou de 2002 e o enunciado pede 2 digitos, porém n vejo sentido em colocar 02 como é uma soma 02 é igual a 2.
+import dadosPessoais # Explicação em "README.md"
 
+km_por_dia: int = dadosPessoais.idade 
+gasto_diario: int = 300 + int(dadosPessoais.data_nascimento.split('/')[2][-2:])
 
 
 print(f'Total percorrido em uma semana de {km_por_dia * 7}km')
